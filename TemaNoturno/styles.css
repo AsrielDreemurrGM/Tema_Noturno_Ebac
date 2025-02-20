@@ -1,4 +1,194 @@
+/* Configurações Gerais */
+/* Cor de Fundo Principal */
 .dark-mode body {
-    background-color: gray !important;
-    color: #ffffff !important;
+    background-color: #121212;
+}
+
+/* Cor do Texto de "Olá (Nome)" */
+.dark-mode .container .page-courses__title {
+    color: #E0E0E0;
+}
+
+/* Cor Geral dos Ícones */
+.dark-mode .icon svg[data-v-c5207b46] path {
+    fill: black;
+}
+
+/* Cor dos Botões Quando Desativados  */
+.dark-mode .switcher__inner_unselected[data-v-0f534a74] {
+    background-color: #1E1E1E;
+}
+
+/* Logo da EBAC */
+.dark-mode .header__logo-container[data-v-7cbde269] {
+    background-color: #E0E0E0;
+    padding: 3px;
+    border-radius: 8px;
+}
+
+/* Cor das Barras de Progresso dos Cursos */
+.dark-mode .continue-learning-card .course-progress__indicator .indicator__strip[data-v-a084d5cc],
+.dark-mode .course-card__progress-bar[data-v-7fae3d27] {
+    background-color: #E0E0E0;
+}
+
+/* Cor de Fundo das Barras de Progresso dos Cursos */
+.dark-mode .continue-learning-card .course-progress__indicator[data-v-a084d5cc],
+.dark-mode .course-card__progress-container[data-v-7fae3d27] {
+    background-color: #121212;
+}
+
+/* Cor do Botão de Suporte ao Aluno */
+.support-floating-button .btn[data-v-a6fdb58a] {
+    background-color: #E0E0E0;
+    border: 1px solid #121212;
+}
+
+/* Alert Está Gostando do Curso */
+/* Cor de Fundo */
+.dark-mode .dialog-alert[data-v-28494d90] {
+    background-color: #1E1E1E;
+}
+
+/* Cor do Texto */
+.description[data-v-c82a3b1a],
+.dark-mode .title[data-v-c82a3b1a] {
+    color: #E0E0E0;
+}
+
+/* Header */
+/* Cor do Texto */
+.dark-mode .header__main-nav-list li .header__main-nav-link[data-v-3e0f0a18],
+.dark-mode .header__main-nav-links > li:nth-child(2) > a,
+.dark-mode .header__main-nav-links > li:nth-child(3) > a,
+.dark-mode .header__main-nav-bottom-logout[data-v-3e0f0a18],
+.dark-mode .header__main-nav-bottom-profile[data-v-3e0f0a18],
+.dark-mode .header__main-nav-bottom-info {
+    color: #E0E0E0;
+}
+
+/* Cor de Fundo */
+.dark-mode .header__wrap[data-v-3e0f0a18],
+.dark-mode .header__main-nav[data-v-3e0f0a18] {
+    background-color: #1E1E1E;
+}
+
+/* Cor do Menu Hamburguer  */
+.dark-mode .icon svg rect {
+    fill: #E0E0E0;
+}
+
+/* Menu de Notificações */
+/* Cor do Titulo */
+.dark-mode .sidebar__title[data-v-5650b95d] {
+    color: #E0E0E0;
+}
+
+/* Cor de Fundo */
+.dark-mode .sidebar__container[data-v-5650b95d] .dialog-alert {
+    background-color: #1E1E1E;
+}
+
+/* Cor de Fundo das Notificações */
+.dark-mode .notifications-sidebar__item-empty[data-v-1df88e4c], 
+.dark-mode .notifications-sidebar__item-pending-next[data-v-1df88e4c] {
+    background-color: #E0E0E0;
+}
+
+/* Menu do Usuário */
+/* Cor de Fundo */
+.dark-mode .header__user-menu[data-v-7cbde269] {
+    background-color: #1E1E1E;
+}
+
+/* Cor do Texto */
+.dark-mode .user-menu__items a[data-v-7cbde269],
+.dark-mode .user-menu__name p[data-v-7cbde269] {
+    color: #E0E0E0;
+}
+
+/* Seção Continue Aprendendo*/
+/* Cor dos Textos da Seção */
+.dark-mode .continue-learning-card .course__title a[data-v-a084d5cc],
+.dark-mode .continue-learning-card .course-progress__complete[data-v-a084d5cc],
+.dark-mode .continue-learning-card__compact .course__title .course__link[data-v-a084d5cc],
+.dark-mode .continue-learning-block__header .continue-learning-block__title {
+    color: #E0E0E0;
+}
+
+/* Cor de Fundo dos Cards */
+.dark-mode .continue-learning-card[data-v-a084d5cc] {
+    background-color: #1E1E1E;
+}
+
+/* Seção Meus Cursos */
+/* Cor do Título da Seção */
+.dark-mode .my-courses__header-title[data-v-c6b32926] {
+    color: #E0E0E0;
+}
+
+/* Cor do Nome dos Cursos */
+.dark-mode .course-card__title[data-v-7fae3d27] {
+    color: #E0E0E0;
+}
+
+/* Cor do Texto de % Completada do Curso */
+.dark-mode .course-card__progress-info[data-v-7fae3d27] {
+    color: #E0E0E0;
+}
+
+/* Cor dos Cards dos Cursos */
+.dark-mode .course-card[data-v-7fae3d27],
+.dark-mode .my-courses__list .course-card[data-v-c6b32926] {
+    background-color: #1E1E1E;
+}
+
+/* Seção Cursos que Podem te Interessar */
+/* Cor dos Textos da Seção */
+.dark-mode .discount-list__header-title[data-v-6aa6b0bf],
+.dark-mode .discount-card__body-title[data-v-91336618],
+.dark-mode .discount-card__body-subtitle[data-v-91336618],
+.dark-mode .discount-card-price__new-value-number[data-v-267f9f2e] {
+    color: #E0E0E0;
+}
+
+/* Cor das Setas */
+.dark-mode .btn_round[data-v-6aa6b0bf] {
+    background-color: #E0E0E0;
+}
+
+/* Cor dos Cards dos Cursos */
+.dark-mode .discount-list__card[data-v-6aa6b0bf] {
+    background-color: #1E1E1E;
+}
+
+/* Cor do Risco do Preço Antigo */
+.dark-mode .discount-card-price__old div[data-v-267f9f2e]:after {
+    background-color: #E0E0E0;
+}
+
+/* Seção Indique e Ganhe */
+/* Cor de Fundo do Card */
+.dark-mode .referal-container[data-v-9c276c32] {
+    background-color: #1E1E1E;
+}
+
+/* Cor do Texto */
+.dark-mode .referal-banner__description,
+.dark-mode .referal-banner__title[data-v-9c276c32] {
+    color: #E0E0E0;
+}
+
+/* Footer */
+/* Cor de Fundo */
+.dark-mode [data-v-4d9c1ad2] .footer__recaptcha,
+.dark-mode .footer[data-v-4e816a30] {
+    background-color: #1E1E1E;
+}
+
+/* Borda dos Prêmios */
+.dark-mode .footer__award img[data-v-4d9c1ad2],
+.dark-mode .footer__award[data-v-4d9c1ad2] {
+    border: 1px solid black;
+    border-radius: 8px;
 }
