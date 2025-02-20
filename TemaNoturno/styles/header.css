@@ -9,6 +9,11 @@
     color: #E0E0E0;
 }
 
+/* Cor dos Botões ao Serem Clicados */
+.dark-mode .header__wrap[data-v-7cbde269] .header__inner .header__main-nav-link:focus {
+    color: #ff7900;
+}
+
 /* Cor de Fundo */
 .dark-mode .header__wrap[data-v-3e0f0a18],
 .dark-mode .header__main-nav[data-v-3e0f0a18] {
@@ -29,6 +34,11 @@
 /* Cor de Fundo */
 .dark-mode .sidebar__container[data-v-5650b95d] .dialog-alert {
     background-color: #1E1E1E;
+}
+
+/* Cor do Ícone de Notificações */
+.dark-mode .header__wrap[data-v-7cbde269] .header__inner .header__notification-icon svg path {
+    fill: #E0E0E0;
 }
 
 /* Cor de Fundo das Notificações */

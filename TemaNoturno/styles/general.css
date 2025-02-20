@@ -34,7 +34,7 @@
 }
 
 /* Cor do Botão de Suporte ao Aluno */
-.support-floating-button .btn[data-v-a6fdb58a] {
+.dark-mode .support-floating-button .btn[data-v-a6fdb58a] {
     background-color: #E0E0E0;
     border: 1px solid #121212;
 }
@@ -46,7 +46,7 @@
 }
 
 /* Cor do Texto */
-.description[data-v-c82a3b1a],
+.dark-mode .description[data-v-c82a3b1a],
 .dark-mode .title[data-v-c82a3b1a] {
     color: #E0E0E0;
 }

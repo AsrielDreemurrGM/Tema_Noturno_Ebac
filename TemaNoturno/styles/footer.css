@@ -11,3 +11,9 @@
     border: 1px solid black;
     border-radius: 8px;
 }
+
+/* Cor dos Ícones das Redes Sociais */
+.dark-mode .footer__socials[data-v-4e816a30] > div > a > span > svg > path,
+.dark-mode .footer__socials[data-v-4e816a30] > div > a > span > svg > g path {
+    fill: #E0E0E0;
+}
