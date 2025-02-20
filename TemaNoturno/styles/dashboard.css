@@ -1,0 +1,76 @@
+/* Cor do Texto de "Olá (Nome)" */
+.dark-mode .container .page-courses__title {
+    color: #E0E0E0;
+}
+
+/* Seção Continue Aprendendo*/
+/* Cor dos Textos da Seção */
+.dark-mode .continue-learning-card .course__title a[data-v-a084d5cc],
+.dark-mode .continue-learning-card .course-progress__complete[data-v-a084d5cc],
+.dark-mode .continue-learning-card__compact .course__title .course__link[data-v-a084d5cc],
+.dark-mode .continue-learning-block__header .continue-learning-block__title {
+    color: #E0E0E0;
+}
+
+/* Cor de Fundo dos Cards */
+.dark-mode .continue-learning-card[data-v-a084d5cc] {
+    background-color: #1E1E1E;
+}
+
+/* Seção Meus Cursos */
+/* Cor do Título da Seção */
+.dark-mode .my-courses__header-title[data-v-c6b32926] {
+    color: #E0E0E0;
+}
+
+/* Cor do Nome dos Cursos */
+.dark-mode .course-card__title[data-v-7fae3d27] {
+    color: #E0E0E0;
+}
+
+/* Cor do Texto de % Completada do Curso */
+.dark-mode .course-card__progress-info[data-v-7fae3d27] {
+    color: #E0E0E0;
+}
+
+/* Cor dos Cards dos Cursos */
+.dark-mode .course-card[data-v-7fae3d27],
+.dark-mode .my-courses__list .course-card[data-v-c6b32926] {
+    background-color: #1E1E1E;
+}
+
+/* Seção Cursos que Podem te Interessar */
+/* Cor dos Textos da Seção */
+.dark-mode .discount-list__header-title[data-v-6aa6b0bf],
+.dark-mode .discount-card__body-title[data-v-91336618],
+.dark-mode .discount-card__body-subtitle[data-v-91336618],
+.dark-mode .discount-card-price__new-value-number[data-v-267f9f2e] {
+    color: #E0E0E0;
+}
+
+/* Cor das Setas */
+.dark-mode .btn_round[data-v-6aa6b0bf] {
+    background-color: #E0E0E0;
+}
+
+/* Cor dos Cards dos Cursos */
+.dark-mode .discount-list__card[data-v-6aa6b0bf] {
+    background-color: #1E1E1E;
+}
+
+/* Cor do Risco do Preço Antigo */
+.dark-mode .discount-card-price__old div[data-v-267f9f2e]:after {
+    background-color: #E0E0E0;
+}
+
+/* Seção Indique e Ganhe */
+/* Cor de Fundo do Card */
+.dark-mode .referal-container[data-v-9c276c32] {
+    background-color: #1E1E1E;
+}
+
+/* Cor do Texto */
+.dark-mode .referal-banner__description,
+.dark-mode .referal-banner__title[data-v-9c276c32] {
+    color: #E0E0E0;
+}

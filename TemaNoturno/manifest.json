@@ -12,11 +12,16 @@
         "https://lms.ebaconline.com.br/*"
     ],
     "content_scripts": [
-        {
-            "matches": ["https://lms.ebaconline.com.br/*"],
-            "css": ["styles.css"],
-            "js": ["content.js"]
-        }
+    {
+        "matches": ["https://lms.ebaconline.com.br/*"],
+        "css": [
+            "./styles/general.css",
+            "./styles/header.css",
+            "./styles/footer.css",
+            "./styles/dashboard.css"
+        ],
+        "js": ["content.js"]
+    }
     ],
     "action": {
         "default_popup": "popup/popup.html",

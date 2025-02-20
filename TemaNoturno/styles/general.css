@@ -1,0 +1,54 @@
+/* Configurações Gerais */
+/* Cor de Fundo Principal */
+.dark-mode body {
+    background-color: #121212;
+}
+
+/* Cor Geral dos Ícones */
+.dark-mode .icon svg[data-v-c5207b46] path {
+    fill: black;
+}
+
+/* Cor dos Botões Quando Desativados  */
+.dark-mode .switcher__inner_unselected[data-v-0f534a74] {
+    background-color: #1E1E1E;
+}
+
+/* Logo da EBAC */
+.dark-mode .header__logo-container[data-v-7cbde269] {
+    background-color: #E0E0E0;
+    padding: 3px;
+    border-radius: 8px;
+}
+
+/* Cor das Barras de Progresso dos Cursos */
+.dark-mode .continue-learning-card .course-progress__indicator .indicator__strip[data-v-a084d5cc],
+.dark-mode .course-card__progress-bar[data-v-7fae3d27] {
+    background-color: #E0E0E0;
+}
+
+/* Cor de Fundo das Barras de Progresso dos Cursos */
+.dark-mode .continue-learning-card .course-progress__indicator[data-v-a084d5cc],
+.dark-mode .course-card__progress-container[data-v-7fae3d27] {
+    background-color: #121212;
+}
+
+/* Cor do Botão de Suporte ao Aluno */
+.support-floating-button .btn[data-v-a6fdb58a] {
+    background-color: #E0E0E0;
+    border: 1px solid #121212;
+}
+
+/* Alert Está Gostando do Curso */
+/* Cor de Fundo */
+.dark-mode .dialog-alert[data-v-28494d90] {
+    background-color: #1E1E1E;
+}
+
+/* Cor do Texto */
+.description[data-v-c82a3b1a],
+.dark-mode .title[data-v-c82a3b1a] {
+    color: #E0E0E0;
+}
+
+

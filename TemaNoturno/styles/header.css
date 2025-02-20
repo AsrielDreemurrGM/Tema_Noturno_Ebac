@@ -1,0 +1,50 @@
+/* Header */
+/* Cor do Texto */
+.dark-mode .header__main-nav-list li .header__main-nav-link[data-v-3e0f0a18],
+.dark-mode .header__main-nav-links > li:nth-child(2) > a,
+.dark-mode .header__main-nav-links > li:nth-child(3) > a,
+.dark-mode .header__main-nav-bottom-logout[data-v-3e0f0a18],
+.dark-mode .header__main-nav-bottom-profile[data-v-3e0f0a18],
+.dark-mode .header__main-nav-bottom-info {
+    color: #E0E0E0;
+}
+
+/* Cor de Fundo */
+.dark-mode .header__wrap[data-v-3e0f0a18],
+.dark-mode .header__main-nav[data-v-3e0f0a18] {
+    background-color: #1E1E1E;
+}
+
+/* Cor do Menu Hamburguer  */
+.dark-mode .icon svg rect {
+    fill: #E0E0E0;
+}
+
+/* Menu de Notificações */
+/* Cor do Titulo */
+.dark-mode .sidebar__title[data-v-5650b95d] {
+    color: #E0E0E0;
+}
+
+/* Cor de Fundo */
+.dark-mode .sidebar__container[data-v-5650b95d] .dialog-alert {
+    background-color: #1E1E1E;
+}
+
+/* Cor de Fundo das Notificações */
+.dark-mode .notifications-sidebar__item-empty[data-v-1df88e4c], 
+.dark-mode .notifications-sidebar__item-pending-next[data-v-1df88e4c] {
+    background-color: #E0E0E0;
+}
+
+/* Menu do Usuário */
+/* Cor de Fundo */
+.dark-mode .header__user-menu[data-v-7cbde269] {
+    background-color: #1E1E1E;
+}
+
+/* Cor do Texto */
+.dark-mode .user-menu__items a[data-v-7cbde269],
+.dark-mode .user-menu__name p[data-v-7cbde269] {
+    color: #E0E0E0;
+}

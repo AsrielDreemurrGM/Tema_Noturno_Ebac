@@ -1,0 +1,13 @@
+/* Footer */
+/* Cor de Fundo */
+.dark-mode [data-v-4d9c1ad2] .footer__recaptcha,
+.dark-mode .footer[data-v-4e816a30] {
+    background-color: #1E1E1E;
+}
+
+/* Borda dos Prêmios */
+.dark-mode .footer__award img[data-v-4d9c1ad2],
+.dark-mode .footer__award[data-v-4d9c1ad2] {
+    border: 1px solid black;
+    border-radius: 8px;
+}
