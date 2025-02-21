@@ -34,12 +34,6 @@ html,
     background-color: #121212;
 }
 
-/* Cor do Botão de Suporte ao Aluno */
-.dark-mode .support-floating-button .btn[data-v-a6fdb58a] {
-    background-color: #E0E0E0;
-    border: 1px solid #121212;
-}
-
 /* Alert Está Gostando do Curso */
 /* Cor de Fundo */
 .dark-mode .dialog-alert[data-v-28494d90] {

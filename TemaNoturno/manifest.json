@@ -19,7 +19,8 @@
             "./styles/header.css",
             "./styles/footer.css",
             "./styles/dashboard.css",
-            "./styles/webinars.css"
+            "./styles/webinars.css",
+            "./styles/help.css"
         ],
         "js": ["content.js"]
     }

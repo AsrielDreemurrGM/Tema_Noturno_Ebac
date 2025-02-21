@@ -1,0 +1,54 @@
+/* Cor dos Textos */
+.dark-mode .support-student[data-v-56a57038] .dialog-alert__title,
+.dark-mode .help-support__text--short[data-v-97222db4],
+.dark-mode .support-student__subtitle[data-v-56a57038],
+.dark-mode .dialog-alert__title[data-v-28494d90],
+.dark-mode .help-support__text[data-v-97222db4],
+.dark-mode .help-questions__list-answer[data-v-2373f496],
+.dark-mode .expansion-item__label-text--secondary[data-v-4223dbe0],
+.dark-mode .help-questions__title[data-v-2373f496],
+.dark-mode .help-heading__title[data-v-546766be] {
+    color: #E0E0E0;
+}
+
+/* Cor de Fundo das Perguntas*/
+.dark-mode .help-support__container[data-v-97222db4],
+.dark-mode .expansion-item--secondary[data-v-4223dbe0] {
+    background-color: #1E1E1E;
+}
+
+/* Cor do Ícone de Suporte ao Aluno */
+.dark-mode .support-student__title-icon[data-v-56a57038] svg circle {
+    fill: #E0E0E0;
+}
+
+/* Cor de Fundo do Ícone de Suporte ao Aluno - Mobile */
+.dark-mode .support-student__title-icon--mobile[data-v-56a57038] svg path {
+    fill: #E0E0E0;
+}
+
+/* Cor do Ícone de Suporte ao Aluno - Mobile */
+.dark-mode .support-student__title-icon--mobile[data-v-56a57038] svg path:nth-child(2),
+.dark-mode .support-student__title-icon--mobile[data-v-56a57038] svg path:nth-child(3) {
+    fill: #121212;
+}
+
+/* Cor do Botão de Suporte ao Aluno */
+.dark-mode .support-floating-button .btn[data-v-a6fdb58a] {
+    background-color: #E0E0E0;
+    border: 1px solid #121212;
+}
+
+/* Fundo do "Descreva o seu Problema" */
+.dark-mode .ql-editor {
+    background-color: #E0E0E0;
+}
+/* Fundo Upload de Arquivos */
+.dark-mode .file-upload[data-v-36dab500] {
+    background-color: #B0B0B0;
+}
+
+/* Preenchimento do Ícone de Clips */
+.dark-mode .file-upload__attach-label[data-v-36dab500] button div span svg path {
+    fill: none;
+}
