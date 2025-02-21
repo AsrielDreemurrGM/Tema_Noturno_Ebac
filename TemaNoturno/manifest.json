@@ -1,6 +1,6 @@
 {
     "manifest_version": 3,
-    "name": "Tema Noturno EBAC",
+    "name": "Tema Noturno EBAC LMS",
     "version": "1.0",
     "description": "Aplica um tema noturno na plataforma de ensino da EBAC.",
     "permissions": [
@@ -18,7 +18,8 @@
             "./styles/general.css",
             "./styles/header.css",
             "./styles/footer.css",
-            "./styles/dashboard.css"
+            "./styles/dashboard.css",
+            "./styles/webinars.css"
         ],
         "js": ["content.js"]
     }
