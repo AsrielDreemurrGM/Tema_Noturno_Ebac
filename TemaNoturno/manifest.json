@@ -20,7 +20,8 @@
             "./styles/footer.css",
             "./styles/dashboard.css",
             "./styles/webinars.css",
-            "./styles/help.css"
+            "./styles/help.css",
+            "./styles/courses.css"
         ],
         "js": ["content.js"]
     }

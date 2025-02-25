@@ -1,0 +1,67 @@
+/* Cor dos Textos */
+.dark-mode .course-progress__overview[data-v-68b2e438],
+.dark-mode .course-module__toggle-lections-content[data-v-d472e6b6],
+.dark-mode div .course-progress__badge[data-v-68b2e438],
+.dark-mode .course-module__header-progress[data-v-d472e6b6],
+.dark-mode .course-module__header-title[data-v-d472e6b6],
+.dark-mode .note-sidebar__empty[data-v-99259e62],
+.dark-mode .course-lecture__lecture-title[data-v-dd59eb2a],
+.dark-mode .course-lecture__lecture-header[data-v-dd59eb2a],
+.dark-mode .course-module__header-title--completed[data-v-d472e6b6],
+.dark-mode .course-section__header-title[data-v-c3bb468e],
+.dark-mode .course-progress__section-title[data-v-68b2e438],
+.dark-mode .course-progress__percent[data-v-68b2e438],
+.dark-mode .course-sumbenu__title[data-v-a401c992],
+.dark-mode .title[data-v-0cd5cf93],
+.dark-mode .description[data-v-0cd5cf93],
+.dark-mode .badge b[data-v-f88362f4],
+.dark-mode .badge[data-v-f88362f4],
+.dark-mode .course-heading__title[data-v-46f31516] {
+    color: #E0E0E0;
+}
+
+/* Cor dos Cards */
+.dark-mode .course-module__toggle-lections[data-v-d472e6b6],
+.dark-mode .course-lecture[data-v-dd59eb2a],
+.dark-mode .course-module[data-v-d472e6b6] .expansion-item,
+.dark-mode .course-progress[data-v-68b2e438],
+.dark-mode .course-heading[data-v-46f31516] {
+    background-color: #1E1E1E;
+}
+
+/* Cor do Card de Suporte do Tutor, Submenu e  */
+.dark-mode div .course-progress__badge[data-v-68b2e438],
+.dark-mode .submenu[data-v-4a340c43],
+.dark-mode .card[data-v-0cd5cf93] {
+    background-color: #121212;
+}
+
+/* Cor dos Ícones */
+.dark-mode span.course-progress__fold-icon[data-v-68b2e438] svg path,
+.dark-mode .course-module__header-fold[data-v-d472e6b6] > span svg path,
+.dark-mode .badge[data-v-f88362f4] svg path {
+    fill: #E0E0E0;
+}
+
+/* Cor dos Ícones - Mobile */
+.dark-mode .course-module__toggle-lections[data-v-d472e6b6] > div > span > svg path {
+    stroke: #E0E0E0;
+}
+
+/* Cor do Botão "Minhas Notas" */
+.dark-mode .btn-toggle[data-v-1258f791] {
+    background-color: #E0E0E0;
+}
+
+/* Sombra do Card de % Concluída do Curso */
+.dark-mode .course-progress__content-body-cover-gradient--left[data-v-68b2e438] {
+    background: linear-gradient(90deg,#1E1E1E 36.9%,hsla(0,0%,100%,0));
+}
+.dark-mode .course-progress__content-body-cover-gradient--right[data-v-68b2e438] {
+    background: linear-gradient(270deg,#1E1E1E 36.9%,hsla(0,0%,100%,0));
+}
+
+/* Sombra dos Cards de Vídeos */
+.dark-mode .course-lecture-preview__overlay--finished[data-v-490e52ec] {
+    background: none;
+}
