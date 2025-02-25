@@ -85,3 +85,15 @@
 .dark-mode .complete-block[data-v-6d24357a] {
     background-color: #1E1E1E;
 }
+
+/* Cor do Menu de Comentários */
+.dark-mode .comments-menu[data-v-3d7afc92] {
+    background-color: #121212;
+}
+
+/* Cor do Texto dos Comentários */
+.dark-mode .comments-post__html-content[data-v-6d976fbb] p strong,
+.dark-mode .comments-post__html-content[data-v-6d976fbb] ul>li,
+.dark-mode .comments-post__html-content[data-v-6d976fbb] p {
+    color: #E0E0E0;
+}
