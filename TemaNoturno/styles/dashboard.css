@@ -5,6 +5,7 @@
 
 /* Seção Continue Aprendendo*/
 /* Cor dos Textos da Seção */
+.dark-mode .alert__text[data-v-3f76a8e2], .alert__tooltip-text[data-v-3f76a8e2],
 .dark-mode .continue-learning-card .course__title a[data-v-a084d5cc],
 .dark-mode .continue-learning-card .course-progress__complete[data-v-a084d5cc],
 .dark-mode .continue-learning-card__compact .course__title .course__link[data-v-a084d5cc],

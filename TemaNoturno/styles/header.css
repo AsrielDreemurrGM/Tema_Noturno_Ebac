@@ -42,6 +42,7 @@
 }
 
 /* Cor de Fundo das Notificações */
+.dark-mode .notification-card[data-v-04eadb9c],
 .dark-mode .notifications-sidebar__item-empty[data-v-1df88e4c], 
 .dark-mode .notifications-sidebar__item-pending-next[data-v-1df88e4c] {
     background-color: #E0E0E0;

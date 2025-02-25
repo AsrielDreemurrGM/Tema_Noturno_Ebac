@@ -5,11 +5,6 @@ html,
     background-color: #121212;
 }
 
-/* Cor Geral dos Ícones */
-.dark-mode .icon svg[data-v-c5207b46] path {
-    fill: black;
-}
-
 /* Cor dos Botões Quando Desativados  */
 .dark-mode .switcher__inner_unselected[data-v-0f534a74] {
     background-color: #1E1E1E;
