@@ -42,6 +42,15 @@
 
 /* Seção Cursos que Podem te Interessar */
 /* Cor dos Textos da Seção */
+.dark-mode .discount-dialog-price__installment-price-left[data-v-1512000e],
+.dark-mode .discount-dialog-teachers__teacher-description[data-v-3cd35923],
+.dark-mode .discount-dialog-teachers__teacher-headline[data-v-3cd35923],
+.dark-mode .discount-dialog-teachers__headline[data-v-3cd35923],
+.dark-mode .discount-dialog-skills__block-description[data-v-5eb6e1fd],
+.dark-mode .discount-dialog-skills__block-headline[data-v-5eb6e1fd],
+.dark-mode .discount-dialog-program__block li[data-v-51bc8f50],
+.dark-mode .discount-dialog-skills__headline[data-v-5eb6e1fd],
+.dark-mode .discount-dialog-program__title[data-v-51bc8f50],
 .dark-mode .discount-list__header-title[data-v-6aa6b0bf],
 .dark-mode .discount-card__body-title[data-v-91336618],
 .dark-mode .discount-card__body-subtitle[data-v-91336618],
@@ -57,6 +66,16 @@
 /* Cor dos Cards dos Cursos */
 .dark-mode .discount-list__card[data-v-6aa6b0bf] {
     background-color: #1E1E1E;
+}
+
+/* Cor dos Cards Após Clicar em uma Promoção */
+.dark-mode .discount-dialog__hero[data-v-fc5abc86] {
+    background: linear-gradient(96.32deg, #E0E0E0,#E0E0E0 .01%,#312d2d);
+}
+.dark-mode .discount-dialog__price--sticky-bottom[data-v-fc5abc86],
+.dark-mode .discount-dialog-skills__block[data-v-5eb6e1fd],
+.dark-mode .discount-dialog-program__block[data-v-51bc8f50] {
+    background-color: #121212;
 }
 
 /* Cor do Risco do Preço Antigo */
