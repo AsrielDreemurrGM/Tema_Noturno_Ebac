@@ -22,7 +22,8 @@
             "./styles/webinars.css",
             "./styles/help.css",
             "./styles/courses.css",
-            "./styles/profile.css"
+            "./styles/profile.css",
+            "./styles/lessons.css"
         ],
         "js": ["content.js"]
     }

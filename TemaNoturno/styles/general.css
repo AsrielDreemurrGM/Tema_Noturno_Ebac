@@ -1,6 +1,6 @@
 /* Configurações Gerais */
 /* Cor de Fundo Principal */
-html,
+.dark-mode html,
 .dark-mode body {
     background-color: #121212;
 }
