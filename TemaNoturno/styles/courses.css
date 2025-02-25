@@ -4,7 +4,6 @@
 .dark-mode div .course-progress__badge[data-v-68b2e438],
 .dark-mode .course-module__header-progress[data-v-d472e6b6],
 .dark-mode .course-module__header-title[data-v-d472e6b6],
-.dark-mode .note-sidebar__empty[data-v-99259e62],
 .dark-mode .course-lecture__lecture-title[data-v-dd59eb2a],
 .dark-mode .course-lecture__lecture-header[data-v-dd59eb2a],
 .dark-mode .course-module__header-title--completed[data-v-d472e6b6],
@@ -48,11 +47,6 @@
     stroke: #E0E0E0;
 }
 
-/* Cor do Botão "Minhas Notas" */
-.dark-mode .btn-toggle[data-v-1258f791] {
-    background-color: #E0E0E0;
-}
-
 /* Sombra do Card de % Concluída do Curso */
 .dark-mode .course-progress__content-body-cover-gradient--left[data-v-68b2e438] {
     background: linear-gradient(90deg,#1E1E1E 36.9%,hsla(0,0%,100%,0));
@@ -64,4 +58,22 @@
 /* Sombra dos Cards de Vídeos */
 .dark-mode .course-lecture-preview__overlay--finished[data-v-490e52ec] {
     background: none;
+}
+
+/* Minhas Notas */
+/* Cor do Texto */
+.dark-mode .note-card__text[data-v-46390aea],
+.dark-mode .sidebar__title[data-v-5650b95d],
+.dark-mode .note-sidebar__empty[data-v-99259e62],
+.dark-mode .note-card__title[data-v-46390aea] {
+    color: #E0E0E0;
+}
+/* Cor do Botão */
+.dark-mode .btn-toggle[data-v-1258f791] {
+    background-color: #E0E0E0;
+}
+
+/* Cor de Fundo da Anotação */
+.dark-mode .note-card[data-v-46390aea] {
+    background-color: #121212;
 }

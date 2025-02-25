@@ -25,12 +25,6 @@
     fill: #E0E0E0;
 }
 
-/* Menu de Notificações */
-/* Cor do Titulo */
-.dark-mode .sidebar__title[data-v-5650b95d] {
-    color: #E0E0E0;
-}
-
 /* Cor de Fundo */
 .dark-mode .sidebar__container[data-v-5650b95d] .dialog-alert {
     background-color: #1E1E1E;
