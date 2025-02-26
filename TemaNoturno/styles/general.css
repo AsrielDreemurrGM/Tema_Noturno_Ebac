@@ -53,3 +53,8 @@
 .dark-mode .auth-form__support[data-v-4b3d9801] {
     color: #E0E0E0;
 }
+
+/* Cor do Ícone do Menu de Comentários e dos Pontos de Interrogação da Página de Ajuda */
+.dark-mode .expansion-item__before-label-icon[data-v-4223dbe0] span svg path {
+    fill: black;
+}

@@ -17,11 +17,6 @@
     background-color: #1E1E1E;
 }
 
-/* Cor do Ícone de Suporte ao Aluno */
-.dark-mode .support-student__title-icon[data-v-56a57038] svg circle {
-    fill: #E0E0E0;
-}
-
 /* Cor de Fundo do Ícone de Suporte ao Aluno - Mobile */
 .dark-mode .support-student__title-icon--mobile[data-v-56a57038] svg path {
     fill: #E0E0E0;

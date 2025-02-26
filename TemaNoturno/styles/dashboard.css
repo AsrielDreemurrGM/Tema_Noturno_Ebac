@@ -42,6 +42,7 @@
 
 /* Seção Cursos que Podem te Interessar */
 /* Cor dos Textos da Seção */
+.dark-mode .discount-dialog-price__base[data-v-1512000e],
 .dark-mode .discount-dialog-price__installment-price-left[data-v-1512000e],
 .dark-mode .discount-dialog-teachers__teacher-description[data-v-3cd35923],
 .dark-mode .discount-dialog-teachers__teacher-headline[data-v-3cd35923],
@@ -72,6 +73,7 @@
 .dark-mode .discount-dialog__hero[data-v-fc5abc86] {
     background: linear-gradient(96.32deg, #E0E0E0,#E0E0E0 .01%,#312d2d);
 }
+.dark-mode .discount-dialog-price[data-v-1512000e],
 .dark-mode .discount-dialog__price--sticky-bottom[data-v-fc5abc86],
 .dark-mode .discount-dialog-skills__block[data-v-5eb6e1fd],
 .dark-mode .discount-dialog-program__block[data-v-51bc8f50] {

@@ -23,11 +23,6 @@
     background-color: #1E1E1E;
 }
 
-/* Cor do Ícone do Card de Comentários */
-.dark-mode .expansion-item__before-label-icon[data-v-4223dbe0] span svg path {
-    fill: #E0E0E0;
-}
-
 /* Cor da Barra de Edição dos Comentários */
 .dark-mode .editor__toolbar[data-v-c95dcbc0] {
     background-color: #E0E0E0;

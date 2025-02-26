@@ -1,4 +1,5 @@
 /* Cor dos Textos */
+.dark-mode .grading-alert--score-info[data-v-555770d4],
 .dark-mode .continue-learning-course__header-left--lecture-link[data-v-ddeadeb8],
 .dark-mode .continue-learning-course__header-left--lecture-name[data-v-ddeadeb8],
 .dark-mode .continue-learning-course__header-left--text[data-v-ddeadeb8],
@@ -23,6 +24,7 @@
 }
 
 /* Cor dos Cards */
+.dark-mode .submenu[data-v-e11560e6],
 .dark-mode .continue-learning-course__body[data-v-ddeadeb8],
 .dark-mode .course-module__toggle-lections[data-v-d472e6b6],
 .dark-mode .course-lecture[data-v-dd59eb2a],
