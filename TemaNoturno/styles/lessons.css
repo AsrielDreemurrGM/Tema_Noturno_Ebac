@@ -51,6 +51,7 @@
 }
 
 /* Cor dos Textos - Quizzes */
+.dark-mode .question__feedback--common[data-v-eaa3bbb6],
 .dark-mode .mark-section button+span[data-v-6e9c80e4],
 .dark-mode .startcontinue-block_wrap__item[data-v-0664bce0],
 .dark-mode .navigation-block__count[data-v-16c1359c],
