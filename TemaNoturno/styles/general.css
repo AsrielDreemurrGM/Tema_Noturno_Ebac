@@ -43,6 +43,7 @@
 
 /* Formulário de Login */
 /* Cor de Fundo */
+.dark-mode .auth-form__form[data-v-64387e58],
 .dark-mode .auth-form__form[data-v-4b3d9801] {
     background-color: #1E1E1E;
 }
@@ -50,6 +51,7 @@
 /* Cor do Texto */
 .dark-mode .auth-form__options[data-v-4b3d9801] .checkbox__label,
 .dark-mode .auth-form__title[data-v-4b3d9801],
+.dark-mode .auth-form__support[data-v-64387e58],
 .dark-mode .auth-form__support[data-v-4b3d9801] {
     color: #E0E0E0;
 }
