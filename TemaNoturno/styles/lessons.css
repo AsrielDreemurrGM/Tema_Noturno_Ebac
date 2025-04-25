@@ -103,8 +103,8 @@
 }
 
 /* Cor do Texto dos Comentários */
-.dark-mode .comments-post__html-content[data-v-6d976fbb] p strong,
-.dark-mode .comments-post__html-content[data-v-6d976fbb] ul>li,
-.dark-mode .comments-post__html-content[data-v-6d976fbb] p {
-    color: #E0E0E0;
+.dark-mode .comments-post__html-content[data-v-6d976fbb] p,
+.dark-mode .comments-post__html-content[data-v-6d976fbb] p *,
+.dark-mode .comments-post__html-content[data-v-6d976fbb] ul > li {
+    color: #E0E0E0 !important;
 }
