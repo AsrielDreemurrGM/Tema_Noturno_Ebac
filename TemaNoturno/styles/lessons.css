@@ -103,6 +103,14 @@
     background-color: #121212;
 }
 
+/* Botão de Responder Comentários */
+.dark-mode .comments-actions__reply--mobile[data-v-56c000a0] {
+    color: #E0E0E0;
+    padding: 8px;
+    border-radius: 28px;
+    background-color: #121212;
+}
+
 /* Cor do Texto dos Comentários */
 .dark-mode .comments-post__html-content[data-v-6d976fbb] p,
 .dark-mode .comments-post__html-content[data-v-6d976fbb] p *,
