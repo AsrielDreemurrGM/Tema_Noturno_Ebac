@@ -11,6 +11,7 @@
 }
 
 /* Logo da EBAC */
+.dark-mode .header__logo[data-v-3e0f0a18],
 .dark-mode .header__logo-container[data-v-7cbde269] {
     background-color: #E0E0E0;
     padding: 3px;
