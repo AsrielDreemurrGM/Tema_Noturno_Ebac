@@ -1,23 +1,34 @@
 /* Cor dos Textos */
+.dark-mode .body-s,
+.dark-mode .h5,
 .dark-mode .card__notic p[data-v-1984be2a],
 .dark-mode .title[data-v-1984be2a],
 .dark-mode .profile-certificates-enrollments[data-v-ea4a16c0] div:nth-child(1) div,
+.dark-mode .profile-certificates-enrollments__title,
+.dark-mode .profile-certificates-enrollments__title h2[data-v-846a8136],
 .dark-mode .profile-certificates-enrollments__title h2[data-v-ea4a16c0],
 .dark-mode .profile-certificates-courses__title h2[data-v-cf885564],
 .dark-mode .password__title[data-v-23337549],
+.dark-mode .profile-form__hint[data-v-8933f616],
 .dark-mode .profile-form__hint[data-v-0650c2cd],
 .dark-mode .checkbox__label[data-v-15b14a77],
+.dark-mode .profile-form__header-description[data-v-8933f616],
 .dark-mode .profile-form__header-description[data-v-0650c2cd],
+.dark-mode .profile-form__header-title[data-v-8933f616],
 .dark-mode .profile-form__header-title[data-v-0650c2cd],
+.dark-mode .card__title h2[data-v-f2703bfc],
 .dark-mode .card__title h2[data-v-1984be2a],
 .dark-mode .header__name h1[data-v-8ec4a536] {
     color: #E0E0E0;
 }
 
 /* Cor dos Cards */
+.dark-mode .enrollments__cert[data-v-2414f11f],
 .dark-mode .enrollments__cert[data-v-53383e14],
 .dark-mode .password[data-v-23337549],
+.dark-mode .profile-form[data-v-8933f616],
 .dark-mode .profile-form[data-v-0650c2cd],
+.dark-mode .card[data-v-f2703bfc],
 .dark-mode .card[data-v-1984be2a] {
     background-color: #1E1E1E;
 }
