@@ -35,6 +35,10 @@
     background-color: #1E1E1E;
 }
 
+/* Cor de Fundo do Menu de Transcrição Dos Vídeos */
+.dark-mode .video-player-wrapper__subtitles #videoPlayerSubsBody2[data-v-21df9880] .scrollarea__container {
+    background-color: #E0E0E0;
+}
 /* Cor da Barra de Edição dos Comentários */
 .dark-mode .editor__toolbar[data-v-c95dcbc0] {
     background-color: #E0E0E0;
