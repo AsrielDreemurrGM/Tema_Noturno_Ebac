@@ -35,6 +35,11 @@
     background-color: #1E1E1E;
 }
 
+/* Sombreamento Por Cima Dos Vídeos - Descomente Para Habilitar */
+/* .dark-mode .video-player[data-v-21df9880] .playkit-player {
+    opacity: 0.5;
+} */
+
 /* Cor de Fundo do Menu de Transcrição Dos Vídeos */
 .dark-mode .video-player-wrapper__subtitles #videoPlayerSubsBody2[data-v-21df9880] .scrollarea__container {
     background-color: #E0E0E0;
