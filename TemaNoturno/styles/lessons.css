@@ -9,6 +9,7 @@
 .dark-mode .task__title[data-v-3341870a],
 .dark-mode .tickets-note__text[data-v-acdc575a],
 .dark-mode .mark-section button+span[data-v-15fb0d02],
+.dark-mode .attachment__filename[data-v-8f17dbce],
 .dark-mode .attachment__filename[data-v-cc1a47e6],
 .dark-mode .attachments__title[data-v-978de2a2],
 .dark-mode .comments-post__user-name[data-v-6d976fbb],
@@ -26,6 +27,7 @@
 
 /* Cor dos Cards */
 .dark-mode .task[data-v-3341870a],
+.dark-mode .attachment[data-v-8f17dbce],
 .dark-mode .attachment[data-v-cc1a47e6],
 .dark-mode .content-rating[data-v-762559f1],
 .dark-mode .lesson-navigation[data-v-ba1fead0],
