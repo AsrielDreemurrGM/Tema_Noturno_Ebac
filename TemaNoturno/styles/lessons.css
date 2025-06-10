@@ -1,4 +1,7 @@
 /* Cor dos Textos */
+.dark-mode .video-player-wrapper__subtitles .video-player__subs[data-v-b1b0701c],
+.dark-mode .video-player-wrapper__subtitles .scrollarea__container,
+.dark-mode .video-player__subs-title[data-v-b1b0701c],
 .dark-mode .expansion-item__content-text--secondary[data-v-4223dbe0],
 .dark-mode .lesson__no-content[data-v-2fc439ff],
 .dark-mode .reply__header>*+[data-v-151198e0],
@@ -26,6 +29,7 @@
 }
 
 /* Cor dos Cards */
+.dark-mode .video-player__subs[data-v-b1b0701c],
 .dark-mode .task[data-v-3341870a],
 .dark-mode .attachment[data-v-8f17dbce],
 .dark-mode .attachment[data-v-cc1a47e6],
@@ -38,14 +42,25 @@
 }
 
 /* Sombreamento Por Cima Dos Vídeos - Descomente Para Habilitar */
-/* .dark-mode .video-player[data-v-21df9880] .playkit-player {
+/* .dark-mode .playkit-player {
     opacity: 0.5;
 } */
 
-/* Cor de Fundo do Menu de Transcrição Dos Vídeos */
-.dark-mode .video-player-wrapper__subtitles #videoPlayerSubsBody2[data-v-21df9880] .scrollarea__container {
+/* Fundo da Transcrição dos Vídeos */
+.dark-mode .video-player-wrapper__subtitles #videoPlayerSubsBody[data-v-b1b0701c],
+.dark-mode .video-player-wrapper__subtitles .scrollarea__container,
+.dark-mode .video-player-wrapper__subtitles .scrollarea__container {
+    background-color: #1E1E1E;
+}
+/* Cor de Fundo ao Fazer Hover nos Textos */
+.dark-mode .video-player__subs--text[data-v-b1b0701c]:hover {
+    background-color: #121212;
+}
+/* Cor de Fundo do Switch de Auto Rolagem da Transcrição */
+.dark-mode .video-player__subs-bottom[data-v-b1b0701c] {
     background-color: #E0E0E0;
 }
+
 /* Cor da Barra de Edição dos Comentários */
 .dark-mode .editor__toolbar[data-v-c95dcbc0] {
     background-color: #E0E0E0;
