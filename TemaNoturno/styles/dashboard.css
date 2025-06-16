@@ -1,98 +1,99 @@
 /* Cor do Texto de "Olá (Nome)" */
 .dark-mode .container .page-courses__title {
-    color: #E0E0E0;
+    color: #E0E0E0 !important;
 }
 
 /* Seção Continue Aprendendo*/
 /* Cor dos Textos da Seção */
-.dark-mode .alert__text[data-v-3f76a8e2], .alert__tooltip-text[data-v-3f76a8e2],
-.dark-mode .continue-learning-card .course__title a[data-v-a084d5cc],
-.dark-mode .continue-learning-card .course-progress__complete[data-v-a084d5cc],
-.dark-mode .continue-learning-card__compact .course__title .course__link[data-v-a084d5cc],
+.dark-mode .alert__text, .alert__tooltip-text,
+.dark-mode .continue-learning-card .course__title a,
+.dark-mode .continue-learning-card .course-progress__complete,
+.dark-mode .continue-learning-card__compact .course__title .course__link,
 .dark-mode .continue-learning-block__header .continue-learning-block__title {
-    color: #E0E0E0;
+    color: #E0E0E0 !important;
 }
 
 /* Cor de Fundo dos Cards */
-.dark-mode .continue-learning-card[data-v-a084d5cc] {
-    background-color: #1E1E1E;
+.dark-mode .continue-learning-card {
+    background-color: #1E1E1E !important;
 }
 
 /* Seção Meus Cursos */
 /* Cor do Título da Seção */
-.dark-mode .my-courses__header-title[data-v-c6b32926] {
-    color: #E0E0E0;
+.dark-mode .my-courses__header-title {
+    color: #E0E0E0 !important;
 }
 
 /* Cor do Nome dos Cursos */
-.dark-mode .course-card__title[data-v-7fae3d27] {
-    color: #E0E0E0;
+.dark-mode .course-card__title {
+    color: #E0E0E0 !important;
 }
 
 /* Cor do Texto de % Completada do Curso */
-.dark-mode .course-card__progress-info[data-v-7fae3d27] {
-    color: #E0E0E0;
+.dark-mode .course-card__progress-info {
+    color: #E0E0E0 !important;
 }
 
 /* Cor dos Cards dos Cursos */
-.dark-mode .course-card[data-v-7fae3d27],
-.dark-mode .my-courses__list .course-card[data-v-c6b32926] {
-    background-color: #1E1E1E;
+.dark-mode .course-card,
+.dark-mode .my-courses__list .course-card {
+    background-color: #1E1E1E !important;
 }
 
 /* Seção Cursos que Podem te Interessar */
 /* Cor dos Textos da Seção */
-.dark-mode .discount-dialog-price__base[data-v-1512000e],
-.dark-mode .discount-dialog-price__installment-price-left[data-v-1512000e],
-.dark-mode .discount-dialog-teachers__teacher-description[data-v-3cd35923],
-.dark-mode .discount-dialog-teachers__teacher-headline[data-v-3cd35923],
-.dark-mode .discount-dialog-teachers__headline[data-v-3cd35923],
-.dark-mode .discount-dialog-skills__block-description[data-v-5eb6e1fd],
-.dark-mode .discount-dialog-skills__block-headline[data-v-5eb6e1fd],
-.dark-mode .discount-dialog-program__block li[data-v-51bc8f50],
-.dark-mode .discount-dialog-skills__headline[data-v-5eb6e1fd],
-.dark-mode .discount-dialog-program__title[data-v-51bc8f50],
-.dark-mode .discount-list__header-title[data-v-6aa6b0bf],
-.dark-mode .discount-card__body-title[data-v-91336618],
-.dark-mode .discount-card__body-subtitle[data-v-91336618],
-.dark-mode .discount-card-price__new-value-number[data-v-267f9f2e] {
-    color: #E0E0E0;
+.dark-mode .discount-dialog-price__base,
+.dark-mode .discount-dialog-price__installment-price-left,
+.dark-mode .discount-dialog-teachers__teacher-description,
+.dark-mode .discount-dialog-teachers__teacher-headline,
+.dark-mode .discount-dialog-teachers__headline,
+.dark-mode .discount-dialog-skills__block-description,
+.dark-mode .discount-dialog-skills__block-headline,
+.dark-mode .discount-dialog-program__block li,
+.dark-mode .discount-dialog-skills__headline,
+.dark-mode .discount-dialog-program__title,
+.dark-mode .discount-list__header-title,
+.dark-mode .discount-card__body-title,
+.dark-mode .discount-card__body-subtitle,
+.dark-mode .discount-card-price__new-value-number {
+    color: #E0E0E0 !important;
 }
 
 /* Cor das Setas */
-.dark-mode .btn_round[data-v-6aa6b0bf] {
-    background-color: #E0E0E0;
+.dark-mode .btn_round {
+    background-color: #E0E0E0 !important;
 }
 
 /* Cor dos Cards dos Cursos */
-.dark-mode .discount-list__card[data-v-6aa6b0bf] {
-    background-color: #1E1E1E;
+.dark-mode .discount-list__card {
+    background-color: #1E1E1E !important;
 }
 
 /* Cor dos Cards Após Clicar em uma Promoção */
-.dark-mode .discount-dialog__hero[data-v-fc5abc86] {
-    background: linear-gradient(96.32deg, #E0E0E0,#E0E0E0 .01%,#312d2d);
+.dark-mode .discount-dialog__hero {
+    background: linear-gradient(96.32deg, #E0E0E0,#E0E0E0 .01%,#312d2d) !important;
 }
-.dark-mode .discount-dialog-price[data-v-1512000e],
-.dark-mode .discount-dialog__price--sticky-bottom[data-v-fc5abc86],
-.dark-mode .discount-dialog-skills__block[data-v-5eb6e1fd],
-.dark-mode .discount-dialog-program__block[data-v-51bc8f50] {
-    background-color: #121212;
+
+.dark-mode .discount-dialog-price,
+.dark-mode .discount-dialog__price--sticky-bottom,
+.dark-mode .discount-dialog-skills__block,
+.dark-mode .discount-dialog-program__block {
+    background-color: #121212 !important;
 }
 
 /* Cor do Risco do Preço Antigo */
-.dark-mode .discount-card-price__old div[data-v-267f9f2e]:after {
-    background-color: #E0E0E0;
+.dark-mode .discount-card-price__old div:after {
+    background-color: #E0E0E0 !important;
 }
 
 /* Seção Indique e Ganhe */
 /* Cor de Fundo do Card */
-.dark-mode .referal-container[data-v-9c276c32] {
-    background-color: #1E1E1E;
+.dark-mode .referal-container {
+    background-color: #1E1E1E !important;
 }
 
 /* Cor do Texto */
 .dark-mode .referal-banner__description,
-.dark-mode .referal-banner__title[data-v-9c276c32] {
-    color: #E0E0E0;
+.dark-mode .referal-banner__title {
+    color: #E0E0E0 !important;
 }

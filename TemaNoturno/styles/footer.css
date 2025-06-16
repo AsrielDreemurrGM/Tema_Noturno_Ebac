@@ -1,19 +1,19 @@
 /* Footer */
 /* Cor de Fundo */
-.dark-mode [data-v-4d9c1ad2] .footer__recaptcha,
-.dark-mode .footer[data-v-4e816a30] {
-    background-color: #1E1E1E;
+.dark-mode .footer__recaptcha,
+.dark-mode .footer {
+    background-color: #1E1E1E !important;
 }
 
 /* Borda dos Prêmios */
-.dark-mode .footer__award img[data-v-4d9c1ad2],
-.dark-mode .footer__award[data-v-4d9c1ad2] {
-    border: 1px solid black;
-    border-radius: 8px;
+.dark-mode .footer__award img,
+.dark-mode .footer__award {
+    border: 1px solid black !important;
+    border-radius: 8px !important;
 }
 
 /* Cor dos Ícones das Redes Sociais */
-.dark-mode .footer__socials[data-v-4e816a30] > div > a > span > svg > path,
-.dark-mode .footer__socials[data-v-4e816a30] > div > a > span > svg > g path {
-    fill: #E0E0E0;
+.dark-mode .footer__socials > div > a > span > svg > path,
+.dark-mode .footer__socials > div > a > span > svg > g path {
+    fill: #E0E0E0 !important;
 }

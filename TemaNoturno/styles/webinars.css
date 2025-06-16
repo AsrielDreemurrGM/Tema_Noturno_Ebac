@@ -1,64 +1,62 @@
 /* Cor dos Títulos */
-.dark-mode .webinars-recorded__filter-popup--back[data-v-d83efe5e],
-.dark-mode .webinars-recorded__filters-popup-title[data-v-d83efe5e],
-.dark-mode .webinars-recorded__header[data-v-d83efe5e],
-.dark-mode .webinars__header[data-v-450912a0],
-.dark-mode .webinars__additional-title[data-v-d83efe5e],
-.dark-mode .webinars__additional-title[data-v-31953b46],
-.dark-mode .webinar-cards__title[data-v-7d882a72] {
-    color: #E0E0E0;
+.dark-mode .webinars-recorded__filter-popup--back,
+.dark-mode .webinars-recorded__filters-popup-title,
+.dark-mode .webinars-recorded__header,
+.dark-mode .webinars__header,
+.dark-mode .webinars__additional-title,
+.dark-mode .webinar-cards__title {
+    color: #E0E0E0 !important;
 }
 
 /* Cor dos Botões */
-.dark-mode .btn_white[data-v-6184cb24],
-.dark-mode .webinars-recorded__header-filters-mobile[data-v-d83efe5e] .btn,
-.dark-mode .field__control[data-v-1e15fe32],
-.dark-mode .webinar-cards__expansion-btn[data-v-7d882a72],
-.dark-mode .webinars__header-recorded[data-v-450912a0] .btn {
-    background-color: #E0E0E0;
+.dark-mode .btn_white,
+.dark-mode .webinars-recorded__header-filters-mobile .btn,
+.dark-mode .field__control,
+.dark-mode .webinar-cards__expansion-btn,
+.dark-mode .webinars__header-recorded .btn {
+    background-color: #E0E0E0 !important;
 }
 
-/* Cor do Ícone do Botão "Webinars Gravados */
-.dark-mode .webinars__header-recorded[data-v-450912a0] .btn-icon svg path {
-    fill: #E0E0E0;
+/* Cor do Ícone do Botão "Webinars Gravados" */
+.dark-mode .webinars__header-recorded .btn-icon svg path {
+    fill: #E0E0E0 !important;
 }
 
 /* Cor das Estrelas */
-.dark-mode .badge .badge-icon[data-v-0b4656fb] svg path {
-    fill: #E0E0E0;
+.dark-mode .badge .badge-icon svg path {
+    fill: #E0E0E0 !important;
 }
 
 /* Cor dos Títulos dos Cards */
-.dark-mode .webinar-card__content-title[data-v-7a99f714] {
-    color: #E0E0E0;
+.dark-mode .webinar-card__content-title {
+    color: #E0E0E0 !important;
 }
 
 /* Cor dos Cards */
-.dark-mode .scrollarea__container[data-v-33cb3ad6],
-.dark-mode .webinars__additional[data-v-d83efe5e],
-.dark-mode .webinars__additional[data-v-31953b46],
-.dark-mode .webinar-card[data-v-7a99f714] {
-    background-color: #1E1E1E;
+.dark-mode .scrollarea__container,
+.dark-mode .webinars__additional,
+.dark-mode .webinar-card {
+    background-color: #1E1E1E !important;
 }
 
 /* Menu de Seleção de Categorias Webinars Gravados */
 /* Cor de Fundo da Lista */
 .dark-mode .select__dropdown-option:hover {
-    background-color: #B0B0B0;
+    background-color: #B0B0B0 !important;
 }
 
 /* Cor do Scroll da Lista */
-.dark-mode .scrollarea__thumb[data-v-33cb3ad6] {
-    background-color: #E0E0E0;
+.dark-mode .scrollarea__thumb {
+    background-color: #E0E0E0 !important;
 }
 
 /* Cor do Texto das Opções */
-.dark-mode .radio__label[data-v-8e0a01ac],
+.dark-mode .radio__label,
 .dark-mode .select__dropdown-option {
-    color: #E0E0E0;
+    color: #E0E0E0 !important;
 }
 
 /* Altura do X Fechar Lista de Opções */
-.dark-mode .dialog-alert__close[data-v-28494d90] {
-    height: 0;
+.dark-mode .dialog-alert__close {
+    height: 0 !important;
 }

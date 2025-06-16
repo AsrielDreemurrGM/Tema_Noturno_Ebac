@@ -2,62 +2,60 @@
 /* Cor de Fundo Principal */
 .dark-mode html,
 .dark-mode body {
-    background-color: #121212;
+    background-color: #121212 !important;
 }
 
 /* Cor dos Botões Quando Desativados  */
-.dark-mode .switcher__inner_unselected[data-v-0f534a74] {
-    background-color: #1E1E1E;
+.dark-mode .switcher__inner_unselected {
+    background-color: #1E1E1E !important;
 }
 
 /* Logo da EBAC */
-.dark-mode .header__logo[data-v-3e0f0a18],
-.dark-mode .header__logo-container[data-v-7cbde269] {
-    background-color: #E0E0E0;
-    padding: 3px;
-    border-radius: 8px;
+.dark-mode .header__logo,
+.dark-mode .header__logo-container {
+    background-color: #E0E0E0 !important;
+    padding: 3px !important;
+    border-radius: 8px !important;
 }
 
 /* Cor das Barras de Progresso dos Cursos */
-.dark-mode .continue-learning-card .course-progress__indicator .indicator__strip[data-v-a084d5cc],
-.dark-mode .course-card__progress-bar[data-v-7fae3d27] {
-    background-color: #E0E0E0;
+.dark-mode .continue-learning-card .course-progress__indicator .indicator__strip,
+.dark-mode .course-card__progress-bar {
+    background-color: #E0E0E0 !important;
 }
 
 /* Cor de Fundo das Barras de Progresso dos Cursos */
-.dark-mode .continue-learning-card .course-progress__indicator[data-v-a084d5cc],
-.dark-mode .course-card__progress-container[data-v-7fae3d27] {
-    background-color: #121212;
+.dark-mode .continue-learning-card .course-progress__indicator,
+.dark-mode .course-card__progress-container {
+    background-color: #121212 !important;
 }
 
 /* Alert Está Gostando do Curso */
 /* Cor de Fundo */
-.dark-mode .dialog-alert[data-v-28494d90] {
-    background-color: #1E1E1E;
+.dark-mode .dialog-alert {
+    background-color: #1E1E1E !important;
 }
 
 /* Cor do Texto */
-.dark-mode .description[data-v-c82a3b1a],
-.dark-mode .title[data-v-c82a3b1a] {
-    color: #E0E0E0;
+.dark-mode .description,
+.dark-mode .title {
+    color: #E0E0E0 !important;
 }
 
 /* Formulário de Login */
 /* Cor de Fundo */
-.dark-mode .auth-form__form[data-v-64387e58],
-.dark-mode .auth-form__form[data-v-4b3d9801] {
-    background-color: #1E1E1E;
+.dark-mode .auth-form__form {
+    background-color: #1E1E1E !important;
 }
 
 /* Cor do Texto */
-.dark-mode .auth-form__options[data-v-4b3d9801] .checkbox__label,
-.dark-mode .auth-form__title[data-v-4b3d9801],
-.dark-mode .auth-form__support[data-v-64387e58],
-.dark-mode .auth-form__support[data-v-4b3d9801] {
-    color: #E0E0E0;
+.dark-mode .auth-form__options .checkbox__label,
+.dark-mode .auth-form__title,
+.dark-mode .auth-form__support {
+    color: #E0E0E0 !important;
 }
 
 /* Cor do Ícone do Menu de Comentários e dos Pontos de Interrogação da Página de Ajuda */
-.dark-mode .expansion-item__before-label-icon[data-v-4223dbe0] span svg path {
-    fill: black;
+.dark-mode .expansion-item__before-label-icon span svg path {
+    fill: black !important;
 }

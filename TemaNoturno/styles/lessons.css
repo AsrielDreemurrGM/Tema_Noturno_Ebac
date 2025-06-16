@@ -1,44 +1,41 @@
 /* Cor dos Textos */
-.dark-mode .video-player-wrapper__subtitles .video-player__subs[data-v-b1b0701c],
+.dark-mode .video-player-wrapper__subtitles .video-player__subs,
 .dark-mode .video-player-wrapper__subtitles .scrollarea__container,
-.dark-mode .video-player__subs-title[data-v-b1b0701c],
-.dark-mode .expansion-item__content-text--secondary[data-v-4223dbe0],
-.dark-mode .lesson__no-content[data-v-2fc439ff],
-.dark-mode .reply__header>*+[data-v-151198e0],
-.dark-mode .comment__header>*+[data-v-c209f420],
-.dark-mode .lesson-note__description[data-v-c75d564e],
-.dark-mode .lesson-note__caption[data-v-c75d564e],
-.dark-mode .ql-editor-base[data-v-27456224],
-.dark-mode .task__title[data-v-3341870a],
-.dark-mode .tickets-note__text[data-v-acdc575a],
-.dark-mode .mark-section button+span[data-v-15fb0d02],
-.dark-mode .attachment__filename[data-v-8f17dbce],
-.dark-mode .attachment__filename[data-v-cc1a47e6],
-.dark-mode .attachments__title[data-v-978de2a2],
-.dark-mode .comments-post__user-name[data-v-6d976fbb],
-.dark-mode .content-rating__headline[data-v-762559f1],
-.dark-mode .lesson-navigation__subtitle[data-v-ba1fead0],
-.dark-mode .lesson-navigation__title[data-v-ba1fead0],
-.dark-mode .comments-block__label[data-v-4dc4178b],
-.dark-mode .tickets-note__text[data-v-ffb9e4d8],
-.dark-mode .presentation-box__title[data-v-f5d024d2],
-.dark-mode .lecture-submenu__title[data-v-230ba8de],
-.dark-mode .html-block--content[data-v-77bb5218],
-.dark-mode .lecture-heading__title[data-v-68778452] {
-    color: #E0E0E0;
+.dark-mode .video-player__subs-title,
+.dark-mode .expansion-item__content-text--secondary,
+.dark-mode .lesson__no-content,
+.dark-mode .reply__header > *,
+.dark-mode .comment__header > *,
+.dark-mode .lesson-note__description,
+.dark-mode .lesson-note__caption,
+.dark-mode .ql-editor-base,
+.dark-mode .task__title,
+.dark-mode .tickets-note__text,
+.dark-mode .mark-section button + span,
+.dark-mode .attachment__filename,
+.dark-mode .attachments__title,
+.dark-mode .comments-post__user-name,
+.dark-mode .content-rating__headline,
+.dark-mode .lesson-navigation__subtitle,
+.dark-mode .lesson-navigation__title,
+.dark-mode .comments-block__label,
+.dark-mode .tickets-note__text,
+.dark-mode .presentation-box__title,
+.dark-mode .lecture-submenu__title,
+.dark-mode .html-block--content,
+.dark-mode .lecture-heading__title {
+    color: #E0E0E0 !important;
 }
 
 /* Cor dos Cards */
-.dark-mode .video-player__subs[data-v-b1b0701c],
-.dark-mode .task[data-v-3341870a],
-.dark-mode .attachment[data-v-8f17dbce],
-.dark-mode .attachment[data-v-cc1a47e6],
-.dark-mode .content-rating[data-v-762559f1],
-.dark-mode .lesson-navigation[data-v-ba1fead0],
-.dark-mode .tickets[data-v-267df92a],
-.dark-mode .tickets[data-v-00098d74],
-.dark-mode .html-block[data-v-77bb5218] {
-    background-color: #1E1E1E;
+.dark-mode .video-player__subs,
+.dark-mode .task,
+.dark-mode .attachment,
+.dark-mode .content-rating,
+.dark-mode .lesson-navigation,
+.dark-mode .tickets,
+.dark-mode .html-block {
+    background-color: #1E1E1E !important;
 }
 
 /* Sombreamento Por Cima Dos Vídeos - Descomente Para Habilitar */
@@ -47,23 +44,24 @@
 } */
 
 /* Fundo da Transcrição dos Vídeos */
-.dark-mode .video-player-wrapper__subtitles #videoPlayerSubsBody[data-v-b1b0701c],
-.dark-mode .video-player-wrapper__subtitles .scrollarea__container,
+.dark-mode .video-player-wrapper__subtitles #videoPlayerSubsBody,
 .dark-mode .video-player-wrapper__subtitles .scrollarea__container {
-    background-color: #1E1E1E;
+    background-color: #1E1E1E !important;
 }
+
 /* Cor de Fundo ao Fazer Hover nos Textos */
-.dark-mode .video-player__subs--text[data-v-b1b0701c]:hover {
-    background-color: #121212;
+.dark-mode .video-player__subs--text:hover {
+    background-color: #121212 !important;
 }
+
 /* Cor de Fundo do Switch de Auto Rolagem da Transcrição */
-.dark-mode .video-player__subs-bottom[data-v-b1b0701c] {
-    background-color: #E0E0E0;
+.dark-mode .video-player__subs-bottom {
+    background-color: #E0E0E0 !important;
 }
 
 /* Cor da Barra de Edição dos Comentários */
-.dark-mode .editor__toolbar[data-v-c95dcbc0] {
-    background-color: #E0E0E0;
+.dark-mode .editor__toolbar {
+    background-color: #E0E0E0 !important;
 }
 
 /* Sombra Por Cima dos PDFs */
@@ -72,7 +70,7 @@
 }
 
 /* Cor dos Textos (Precisam do "!important") */
-.dark-mode .question__feedback--common[data-v-eaa3bbb6] > p > span,
+.dark-mode .question__feedback--common > p > span,
 .dark-mode #contentBlock > div.lesson__block.lesson__block--text > div > div > ul > li > strong,
 .dark-mode #contentBlock > div.lesson__block.lesson__block--text > div > div > ul > li > span,
 .dark-mode #contentBlock > div.lesson__block.lesson__block--text > div > div > p strong,
@@ -81,65 +79,57 @@
     color: #E0E0E0 !important;
 }
 
-/* Cor de Fundo Imagem "Na nossa programação exclusiva para você */
-.dark-mode .html-block--content[data-v-77bb5218]>:first-child>img {
-    background-color: #E0E0E0;
+/* Cor de Fundo Imagem "Na nossa programação exclusiva para você" */
+.dark-mode .html-block--content > :first-child > img {
+    background-color: #E0E0E0 !important;
 }
 
 /* Cor dos Textos - Quizzes */
-.dark-mode .question__feedback--common[data-v-eaa3bbb6],
-.dark-mode .mark-section button+span[data-v-6e9c80e4],
-.dark-mode .startcontinue-block_wrap__item[data-v-0664bce0],
-.dark-mode .navigation-block__count[data-v-16c1359c],
-.dark-mode .quiz__title[data-v-419ccb1e],
-.dark-mode .quiz-questions__title[data-v-419ccb1e],
-.dark-mode .quiz-results__title[data-v-b9b58c36],
-.dark-mode .question-block__text-title[data-v-4da7b0bf],
-.dark-mode .startcontinue-block_wrap__questions[data-v-67ff08d8],
-.dark-mode .startcontinue-block_wrap__timelimit[data-v-67ff08d8],
-.dark-mode .startcontinue-block_wrap__questions[data-v-0664bce0],
-.dark-mode .startcontinue-block_wrap__timelimit[data-v-0664bce0],
-.dark-mode .startcontinue-block_wrap__title[data-v-67ff08d8],
-.dark-mode .startcontinue-block_wrap__title[data-v-0664bce0],
-.dark-mode .complete-block__text-main[data-v-180b6d14],
-.dark-mode .question-block__text-title[data-v-96566a5a],
-.dark-mode .question-block__main-title.question-block--is-unknown[data-v-96566a5a],
-.dark-mode .quiz-results__title[data-v-cb07b26c],
-.dark-mode .complete-block__text-main[data-v-6d24357a],
-.dark-mode .complete-block__text-title[data-v-6d24357a] {
-    color: #E0E0E0;
+.dark-mode .question__feedback--common,
+.dark-mode .mark-section button + span,
+.dark-mode .startcontinue-block_wrap__item,
+.dark-mode .navigation-block__count,
+.dark-mode .quiz__title,
+.dark-mode .quiz-questions__title,
+.dark-mode .quiz-results__title,
+.dark-mode .question-block__text-title,
+.dark-mode .startcontinue-block_wrap__questions,
+.dark-mode .startcontinue-block_wrap__timelimit,
+.dark-mode .startcontinue-block_wrap__title,
+.dark-mode .complete-block__text-main,
+.dark-mode .question-block__main-title.question-block--is-unknown,
+.dark-mode .quiz-results__title,
+.dark-mode .complete-block__text-title {
+    color: #E0E0E0 !important;
 }
 
-
 /* Cor dos Cards - Quizzes */
-.dark-mode .navigation-block[data-v-16c1359c],
-.dark-mode .quiz__back-button[data-v-419ccb1e],
-.dark-mode .quizmain[data-v-419ccb1e],
-.dark-mode .question-block[data-v-4da7b0bf],
-.dark-mode .startcontinue-block[data-v-67ff08d8],
-.dark-mode .startcontinue-block[data-v-0664bce0],
-.dark-mode .question-block[data-v-96566a5a],
-.dark-mode .complete-block[data-v-180b6d14],
-.dark-mode .complete-block[data-v-6d24357a] {
-    background-color: #1E1E1E;
+.dark-mode .navigation-block,
+.dark-mode .quiz__back-button,
+.dark-mode .quizmain,
+.dark-mode .question-block,
+.dark-mode .startcontinue-block,
+.dark-mode .question-block,
+.dark-mode .complete-block {
+    background-color: #1E1E1E !important;
 }
 
 /* Cor do Menu de Comentários */
-.dark-mode .comments-menu[data-v-3d7afc92] {
-    background-color: #121212;
+.dark-mode .comments-menu {
+    background-color: #121212 !important;
 }
 
 /* Botão de Responder Comentários */
-.dark-mode .comments-actions__reply--mobile[data-v-56c000a0] {
-    color: #E0E0E0;
-    padding: 8px;
-    border-radius: 28px;
-    background-color: #121212;
+.dark-mode .comments-actions__reply--mobile {
+    color: #E0E0E0 !important;
+    padding: 8px !important;
+    border-radius: 28px !important;
+    background-color: #121212 !important;
 }
 
 /* Cor do Texto dos Comentários */
-.dark-mode .comments-post__html-content[data-v-6d976fbb] p,
-.dark-mode .comments-post__html-content[data-v-6d976fbb] p *,
-.dark-mode .comments-post__html-content[data-v-6d976fbb] ul > li {
+.dark-mode .comments-post__html-content p,
+.dark-mode .comments-post__html-content p *,
+.dark-mode .comments-post__html-content ul > li {
     color: #E0E0E0 !important;
 }

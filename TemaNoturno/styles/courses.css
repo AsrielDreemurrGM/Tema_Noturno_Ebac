@@ -1,98 +1,95 @@
 /* Cor dos Textos */
-.dark-mode .continue-learning-course__header-left--text[data-v-86db86c0],
-.dark-mode .continue-learning-course__header-left--text-sm[data-v-ddeadeb8],
-.dark-mode .continue-learning-course__header-left--lecture-link[data-v-86db86c0],
-.dark-mode .continue-learning-course__footer-lessons-lesson-link[data-v-86db86c0],
-.dark-mode .continue-learning-course__footer-lessons-lesson-link[data-v-ddeadeb8],
-.dark-mode .continue-learning-course__footer-text[data-v-86db86c0],
-.dark-mode .continue-learning-course__footer-text[data-v-ddeadeb8],
-.dark-mode .grading-alert--score-info[data-v-555770d4],
-.dark-mode .continue-learning-course__header-left--lecture-link[data-v-ddeadeb8],
-.dark-mode .continue-learning-course__header-left--lecture-name[data-v-86db86c0],
-.dark-mode .continue-learning-course__header-left--lecture-name[data-v-ddeadeb8],
-.dark-mode .continue-learning-course__header-left--text[data-v-ddeadeb8],
-.dark-mode .course-progress__overview[data-v-68b2e438],
-.dark-mode .course-module__toggle-lections-content[data-v-d472e6b6],
-.dark-mode div .course-progress__badge[data-v-68b2e438],
-.dark-mode .course-module__header-progress[data-v-d472e6b6],
-.dark-mode .course-module__header-title[data-v-d472e6b6],
-.dark-mode .course-lecture__lecture-title[data-v-1cbe8d56],
-.dark-mode .course-lecture__lecture-title[data-v-dd59eb2a],
-.dark-mode .course-lecture__lecture-header[data-v-1cbe8d56],
-.dark-mode .course-lecture__lecture-header[data-v-dd59eb2a],
-.dark-mode .course-module__header-title--completed[data-v-d472e6b6],
-.dark-mode .course-section__header-title[data-v-c3bb468e],
-.dark-mode .course-progress__section-title[data-v-68b2e438],
-.dark-mode .course-progress__percent[data-v-68b2e438],
-.dark-mode .course-sumbenu__title[data-v-a401c992],
-.dark-mode .title[data-v-0cd5cf93],
-.dark-mode .course-module__description[data-v-d472e6b6],
-.dark-mode .description[data-v-0cd5cf93],
-.dark-mode .badge b[data-v-f88362f4],
-.dark-mode .badge[data-v-f88362f4],
-.dark-mode .course-heading__title[data-v-46f31516] {
-    color: #E0E0E0;
+.dark-mode .continue-learning-course__header-left--text,
+.dark-mode .continue-learning-course__header-left--text-sm,
+.dark-mode .continue-learning-course__header-left--lecture-link,
+.dark-mode .continue-learning-course__footer-lessons-lesson-link,
+.dark-mode .continue-learning-course__footer-text,
+.dark-mode .grading-alert--score-info,
+.dark-mode .continue-learning-course__header-left--lecture-name,
+.dark-mode .course-progress__overview,
+.dark-mode .course-module__toggle-lections-content,
+.dark-mode .course-progress__badge,
+.dark-mode .course-module__header-progress,
+.dark-mode .course-module__header-title,
+.dark-mode .course-lecture__lecture-title,
+.dark-mode .course-lecture__lecture-header,
+.dark-mode .course-module__header-title--completed,
+.dark-mode .course-section__header-title,
+.dark-mode .course-progress__section-title,
+.dark-mode .course-progress__percent,
+.dark-mode .course-sumbenu__title,
+.dark-mode .title,
+.dark-mode .course-module__description,
+.dark-mode .description,
+.dark-mode .badge b,
+.dark-mode .badge,
+.dark-mode .course-heading__title {
+    color: #E0E0E0 !important;
 }
 
 /* Cor dos Cards */
-.dark-mode .submenu[data-v-e11560e6],
-.dark-mode .continue-learning-course__body[data-v-86db86c0],
-.dark-mode .continue-learning-course__body[data-v-ddeadeb8],
-.dark-mode .course-module__toggle-lections[data-v-d472e6b6],
-.dark-mode .course-lecture[data-v-1cbe8d56],
-.dark-mode .course-lecture[data-v-dd59eb2a],
-.dark-mode .course-module[data-v-d472e6b6] .expansion-item,
-.dark-mode .course-progress[data-v-68b2e438],
-.dark-mode .course-heading[data-v-46f31516] {
-    background-color: #1E1E1E;
+.dark-mode .submenu,
+.dark-mode .continue-learning-course__body,
+.dark-mode .course-module__toggle-lections,
+.dark-mode .course-lecture,
+.dark-mode .course-module .expansion-item,
+.dark-mode .course-progress,
+.dark-mode .course-heading {
+    background-color: #1E1E1E !important;
 }
 
-/* Cor do Card de Suporte do Tutor e Submenu  */
-.dark-mode div .course-progress__badge[data-v-68b2e438],
-.dark-mode .submenu[data-v-4a340c43],
-.dark-mode .card[data-v-0cd5cf93] {
-    background-color: #121212;
+.dark-mode .course-lecture {
+    background-color: #1E1E1E !important;
+}
+
+/* Cor do Card de Suporte do Tutor e Submenu */
+.dark-mode .course-progress__badge,
+.dark-mode .submenu,
+.dark-mode .card {
+    background-color: #121212 !important;
 }
 
 /* Cor dos Ícones */
-.dark-mode span.course-progress__fold-icon[data-v-68b2e438] svg path,
-.dark-mode .course-module__header-fold[data-v-d472e6b6] > span svg path,
-.dark-mode .badge[data-v-f88362f4] svg path {
-    fill: #E0E0E0;
+.dark-mode span.course-progress__fold-icon svg path,
+.dark-mode .course-module__header-fold > span svg path,
+.dark-mode .badge svg path {
+    fill: #E0E0E0 !important;
 }
 
 /* Cor dos Ícones - Mobile */
-.dark-mode .course-module__toggle-lections[data-v-d472e6b6] > div > span > svg path {
-    stroke: #E0E0E0;
+.dark-mode .course-module__toggle-lections > div > span > svg path {
+    stroke: #E0E0E0 !important;
 }
 
 /* Sombra do Card de % Concluída do Curso */
-.dark-mode .course-progress__content-body-cover-gradient--left[data-v-68b2e438] {
-    background: linear-gradient(90deg,#1E1E1E 36.9%,hsla(0,0%,100%,0));
+.dark-mode .course-progress__content-body-cover-gradient--left {
+    background: linear-gradient(90deg, #1E1E1E 36.9%, hsla(0, 0%, 100%, 0)) !important;
 }
-.dark-mode .course-progress__content-body-cover-gradient--right[data-v-68b2e438] {
-    background: linear-gradient(270deg,#1E1E1E 36.9%,hsla(0,0%,100%,0));
+
+.dark-mode .course-progress__content-body-cover-gradient--right {
+    background: linear-gradient(270deg, #1E1E1E 36.9%, hsla(0, 0%, 100%, 0)) !important;
 }
 
 /* Sombra dos Cards de Vídeos */
-.dark-mode .course-lecture-preview__overlay--finished[data-v-490e52ec] {
-    background: none;
+.dark-mode .course-lecture-preview__overlay--finished {
+    background: none !important;
 }
 
 /* Minhas Notas */
 /* Cor do Texto */
-.dark-mode .note-card__text[data-v-46390aea],
-.dark-mode .sidebar__title[data-v-5650b95d],
-.dark-mode .note-sidebar__empty[data-v-99259e62],
-.dark-mode .note-card__title[data-v-46390aea] {
-    color: #E0E0E0;
+.dark-mode .note-card__text,
+.dark-mode .sidebar__title,
+.dark-mode .note-sidebar__empty,
+.dark-mode .note-card__title {
+    color: #E0E0E0 !important;
 }
+
 /* Cor do Botão */
-.dark-mode .btn-toggle[data-v-1258f791] {
-    background-color: #E0E0E0;
+.dark-mode .btn-toggle {
+    background-color: #E0E0E0 !important;
 }
 
 /* Cor de Fundo da Anotação */
-.dark-mode .note-card[data-v-46390aea] {
-    background-color: #121212;
+.dark-mode .note-card {
+    background-color: #121212 !important;
 }
