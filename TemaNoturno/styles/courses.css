@@ -1,4 +1,8 @@
 /* Cor dos Textos */
+.dark-mode .course-timer__text,
+.dark-mode .course-timer__timer--countdown,
+.dark-mode .extra-services__title,
+.dark-mode .extra-services__text,
 .dark-mode .continue-learning-course__header-left--text,
 .dark-mode .continue-learning-course__header-left--text-sm,
 .dark-mode .continue-learning-course__header-left--lecture-link,
@@ -28,6 +32,7 @@
 }
 
 /* Cor dos Cards */
+.dark-mode .course-timer,
 .dark-mode .submenu,
 .dark-mode .continue-learning-course__body,
 .dark-mode .course-module__toggle-lections,
@@ -38,8 +43,9 @@
     background-color: #1E1E1E !important;
 }
 
-.dark-mode .course-lecture {
-    background-color: #1E1E1E !important;
+/* Cor do Contador de Dias */
+.dark-mode .course-timer__timer {
+    background-color: #121212 !important;
 }
 
 /* Cor do Card de Suporte do Tutor e Submenu */
