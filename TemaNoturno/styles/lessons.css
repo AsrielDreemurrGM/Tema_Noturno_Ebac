@@ -1,4 +1,6 @@
 /* Cor dos Textos */
+.dark-mode .course-program-section__title,
+.dark-mode .course-program-lecture__title,
 .dark-mode .video-player-wrapper__subtitles .video-player__subs,
 .dark-mode .video-player-wrapper__subtitles .scrollarea__container,
 .dark-mode .video-player__subs-title,
@@ -132,4 +134,14 @@
 .dark-mode .comments-post__html-content p *,
 .dark-mode .comments-post__html-content ul > li {
     color: #E0E0E0 !important;
+}
+
+/* Cor de Fundo dos Cards do Botão "Programa do Curso" */
+.dark-mode .course-program-module.expansion-item .expansion-item__container {
+    background-color: #121212 !important;
+}
+
+/* Cor de Fundo dos Items dos Cards do Botão "Programa do Curso" */
+.course-program-lecture {
+    background-color: #1E1E1E !important;
 }
