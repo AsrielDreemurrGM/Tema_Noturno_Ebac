@@ -145,3 +145,20 @@
 .course-program-lecture {
     background-color: #1E1E1E !important;
 }
+
+/* Fundo do "Descreva o seu Problema" e do Envio de Tarefas */
+.dark-mode .swiper,
+.dark-mode .editor__attach-files-list .badge,
+.dark-mode .ql-editor {
+    background-color: #E0E0E0 !important;
+}
+
+/* Cor do Nome dos Arquivos Anexados */
+.dark-mode .editor__attach-files-list .badge {
+    color: #121212 !important;
+}
+
+/* Cor do X de Remover Arquivo Anexado */
+.dark-mode .editor__attach-file-remove .icon > svg > path {
+    fill: #121212 !important;
+}

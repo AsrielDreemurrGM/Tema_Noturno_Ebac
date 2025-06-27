@@ -34,11 +34,6 @@
     border: 1px solid #121212 !important;
 }
 
-/* Fundo do "Descreva o seu Problema" */
-.dark-mode .ql-editor {
-    background-color: #E0E0E0 !important;
-}
-
 /* Fundo Upload de Arquivos */
 .dark-mode .file-upload {
     background-color: #B0B0B0 !important;
