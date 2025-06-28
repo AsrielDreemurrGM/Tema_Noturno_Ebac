@@ -7,6 +7,7 @@
     <li>✅ Alternar entre <strong>modo claro</strong> e <strong>modo escuro</strong> facilmente.</li>
     <li>✅ Aplicação <strong>imediata</strong> do tema sem necessidade de recarregar a página.</li>
     <li>✅ Armazena a <strong>preferência do usuário</strong> entre sessões.</li>
+    <li>✅ Novo botão para <strong>sombreamento sobre os vídeos</strong>, útil para vídeos com fundo claro.</li>
 </ul>
 <h2>🛠️ Como Instalar</h2>
 <ol>
@@ -21,7 +22,11 @@
 <ol>
     <li>Clique no <strong>ícone da extensão</strong> na barra de ferramentas.</li>
     <li>Na interface da extensão, clique na opção <strong>"Tema Noturno EBAC"</strong>.</li>
-    <li>Clique no botão <strong>"Ativar/Desativar Tema"</strong> para alternar entre os modos claro e escuro.</li>
+    <li>Clique nos botões para:</li>
+    <ul>
+        <li><strong>Ativar/Desativar Tema</strong> — alterna entre claro e escuro;</li>
+        <li><strong>Ativar/Desativar Sombra</strong> — adiciona um filtro escuro sobre os vídeos.</li>
+    </ul>
 </ol>
 <img title="Demonstração do Tema Noturno" alt="Demonstração do Tema Noturno" src="https://servidor-host-imagens.vercel.app/Exemplo-Extensao.gif">
 <h2>🎨 Personalização</h2>
@@ -37,3 +42,16 @@
 </ul>
 <h2>📜 Licença</h2>
 <p>Este projeto está licenciado sob a <strong>MIT License</strong>.</p>
+<h2>📈 Histórico De Atualizações Recentes</h2>
+<ul>
+    <li><strong>27 Junho 2025</strong> — Adicionado botão de sombra sobre vídeos e rodapé com autor/data; código refatorado; versão atualizada para 2.0.</li>
+    <li><strong>Junho 2025</strong> — Ajustes em comentários, anexos, cards, menus e estilos do dashboard.</li>
+    <li><strong>Maio 2025</strong> — Estilização dos vídeos, melhorias de acessibilidade, correção de estilos quebrados.</li>
+</ul>
+<footer>
+    <p>
+        Por Eduardo Augusto<br>
+        Full Stack Java Student @ EBAC<br>
+        Última Atualização: 27 Junho 2025
+    </p>
+</footer>
