@@ -40,10 +40,10 @@
     background-color: #1E1E1E !important;
 }
 
-/* Sombreamento Por Cima Dos Vídeos - Descomente Para Habilitar */
-/* .dark-mode .playkit-player {
-    opacity: 0.5;
-} */
+/* Sombreamento Por Cima Dos Vídeos - Dinamicamente Alterado Pelo Botão Na Extensão */
+.dark-mode.video-shadow-enabled .playkit-player {
+    opacity: 0.5 !important;
+}
 
 /* Fundo da Transcrição dos Vídeos */
 .dark-mode .video-player-wrapper__subtitles #videoPlayerSubsBody,

@@ -1,28 +1,59 @@
-const toggleButton = document.getElementById("toggleButton");
+const darkModeToggleButton = document.getElementById("toggleButton");
+const videoOverlayToggleButton = document.getElementById("videoShadowButton");
 
-chrome.storage.local.get("darkMode", ({ darkMode }) => {
-    toggleButton.textContent = darkMode ? "Desativar Tema" : "Ativar Tema";
-});
+function initializeToggleStates() {
+    chrome.storage.local.get(["darkMode", "videoShadow"], ({ darkMode, videoShadow }) => {
+        updateDarkModeButtonLabel(darkMode);
+        updateVideoOverlayButtonLabel(videoShadow);
+    });
+}
 
-toggleButton.addEventListener("click", () => {
+function updateDarkModeButtonLabel(isEnabled) {
+    darkModeToggleButton.textContent = isEnabled ? "Desativar Tema" : "Ativar Tema";
+}
+
+function updateVideoOverlayButtonLabel(isEnabled) {
+    videoOverlayToggleButton.textContent = isEnabled
+        ? "Desativar Sombra Sobre Os Vídeos"
+        : "Ativar Sombra Sobre Os Vídeos";
+}
+
+function toggleDarkMode() {
     chrome.storage.local.get("darkMode", ({ darkMode }) => {
-        const newMode = !darkMode;
-        chrome.storage.local.set({ darkMode: newMode });
+        const isDarkModeEnabled = !darkMode;
+        chrome.storage.local.set({ darkMode: isDarkModeEnabled });
+        updateDarkModeButtonLabel(isDarkModeEnabled);
 
-        toggleButton.textContent = newMode ? "Desativar Tema" : "Ativar Tema";
+        applyToActiveTab("dark-mode", isDarkModeEnabled);
+    });
+}
 
-        chrome.tabs.query({ active: true, currentWindow: true }, (tabs) => {
-            chrome.scripting.executeScript({
-                target: { tabId: tabs[0].id },
-                func: (mode) => {
-                    if (mode) {
-                        document.documentElement.classList.add("dark-mode");
-                    } else {
-                        document.documentElement.classList.remove("dark-mode");
-                    }
-                },
-                args: [newMode]
-            });
+function toggleVideoOverlay() {
+    chrome.storage.local.get("videoShadow", ({ videoShadow }) => {
+        const isOverlayEnabled = !videoShadow;
+        chrome.storage.local.set({ videoShadow: isOverlayEnabled });
+        updateVideoOverlayButtonLabel(isOverlayEnabled);
+
+        applyToActiveTab("video-shadow-enabled", isOverlayEnabled);
+    });
+}
+
+function applyToActiveTab(cssClass, shouldEnable) {
+    chrome.tabs.query({ active: true, currentWindow: true }, (tabs) => {
+        const activeTabId = tabs[0].id;
+
+        chrome.scripting.executeScript({
+            target: { tabId: activeTabId },
+            func: (className, enable) => {
+                const root = document.documentElement;
+                root.classList.toggle(className, enable);
+            },
+            args: [cssClass, shouldEnable]
         });
     });
-});
+}
+
+darkModeToggleButton.addEventListener("click", toggleDarkMode);
+videoOverlayToggleButton.addEventListener("click", toggleVideoOverlay);
+
+initializeToggleStates();

@@ -1,15 +1,24 @@
-chrome.storage.local.get("darkMode", ({ darkMode }) => {
-    if (darkMode) {
-        document.documentElement.classList.add("dark-mode");
-    }
-});
+function applyClassIfEnabled(className, isEnabled) {
+    document.documentElement.classList.toggle(className, isEnabled);
+}
 
-chrome.runtime.onMessage.addListener((request) => {
-    if (request.toggleDarkMode !== undefined) {
-    if (request.toggleDarkMode) {
-        document.documentElement.classList.add("dark-mode");
-    } else {
-        document.documentElement.classList.remove("dark-mode");
+function applyStoredPreferences() {
+    chrome.storage.local.get(["darkMode", "videoShadow"], ({ darkMode, videoShadow }) => {
+        applyClassIfEnabled("dark-mode", darkMode);
+        applyClassIfEnabled("video-shadow-enabled", videoShadow);
+    });
+}
+
+function handleRuntimeMessage(request) {
+    if ("toggleDarkMode" in request) {
+        applyClassIfEnabled("dark-mode", request.toggleDarkMode);
     }
+
+    if ("toggleVideoShadow" in request) {
+        applyClassIfEnabled("video-shadow-enabled", request.toggleVideoShadow);
     }
-});
+}
+
+applyStoredPreferences();
+
+chrome.runtime.onMessage.addListener(handleRuntimeMessage);
