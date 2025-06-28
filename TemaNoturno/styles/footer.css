@@ -6,8 +6,7 @@
 }
 
 /* Borda dos Prêmios */
-.dark-mode .footer__award img,
-.dark-mode .footer__award {
+.dark-mode .footer__award img {
     border: 1px solid black !important;
     border-radius: 8px !important;
 }

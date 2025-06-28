@@ -147,7 +147,6 @@
 }
 
 /* Fundo do "Descreva o seu Problema" e do Envio de Tarefas */
-.dark-mode .swiper,
 .dark-mode .editor__attach-files-list .badge,
 .dark-mode .ql-editor {
     background-color: #E0E0E0 !important;
@@ -158,7 +157,24 @@
     color: #121212 !important;
 }
 
+/* Cor do Nome dos Arquivos Anexados Após Envio */
+.dark-mode .attachment {
+    color: #E0E0E0 !important;
+}
+
 /* Cor do X de Remover Arquivo Anexado */
 .dark-mode .editor__attach-file-remove .icon > svg > path {
     fill: #121212 !important;
+}
+
+/* Cor de Fundo do Menu de Botões de Filtrar Comentários - Mobile */
+.dark-mode .comments-menu__sort-swiper .swiper,
+.dark-mode .comments-menu__sort-swiper .swiper-wrapper {
+    background-color: #1E1E1E !important;
+}
+.dark-mode .comments-menu__sort-swiper .comments-menu__sort-swiper-next {
+    background: linear-gradient(270deg,#E0E0E0 24.8%,hsla(0,0%,100%,0) 72.58%) !important;
+}
+.dark-mode .comments-menu__sort-swiper-prev {
+    background: linear-gradient(90deg,#E0E0E0 24.8%,hsla(0,0%,100%,0) 72.58%) !important;
 }
