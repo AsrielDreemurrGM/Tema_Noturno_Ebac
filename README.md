@@ -1,5 +1,9 @@
 <h1>🌙 Tema Noturno EBAC</h1>
 <p>
+  🔗 Looking for the <strong>English version</strong>? 
+    <a href="https://github.com/AsrielDreemurrGM/Tema_Noturno_Ebac/blob/main/README_English.md">README in English</a>.
+</p>
+<p>
     Esta extensão aplica um <strong>tema noturno personalizado</strong> na plataforma de ensino da <strong>EBAC</strong>, proporcionando uma experiência mais confortável para os olhos, especialmente durante o estudo noturno.
 </p>
 <h2>🚀 Funcionalidades</h2>
@@ -48,10 +52,3 @@
     <li><strong>Junho 2025</strong> — Ajustes em comentários, anexos, cards, menus e estilos do dashboard.</li>
     <li><strong>Maio 2025</strong> — Estilização dos vídeos, melhorias de acessibilidade, correção de estilos quebrados.</li>
 </ul>
-<footer>
-    <p>
-        Por Eduardo Augusto<br>
-        Full Stack Java Student @ EBAC<br>
-        Última Atualização: 27 Junho 2025
-    </p>
-</footer>
