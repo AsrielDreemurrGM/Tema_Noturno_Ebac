@@ -1,4 +1,5 @@
 <h1>🌙 Tema Noturno EBAC</h1>
+<p>Por Eduardo Augusto Motta da Rosa (github.com/AsrielDreemurrGM)</p>
 <p>
   🔗 Looking for the <strong>English version</strong>? 
     <a href="https://github.com/AsrielDreemurrGM/Tema_Noturno_Ebac/blob/main/README_English.md">README in English</a>.
