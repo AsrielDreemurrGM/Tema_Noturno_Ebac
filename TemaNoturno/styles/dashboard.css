@@ -3,9 +3,9 @@
     color: #E0E0E0 !important;
 }
 
-/* Seção Continue Aprendendo*/
-/* Cor dos Textos da Seção */
-.dark-mode .alert__text, .alert__tooltip-text,
+/* Seção Continue Aprendendo - Cor dos Textos */
+.dark-mode .alert__text,
+.dark-mode .alert__tooltip-text,
 .dark-mode .continue-learning-card .course__title a,
 .dark-mode .continue-learning-card .course-progress__complete,
 .dark-mode .continue-learning-card__compact .course__title .course__link,
@@ -13,35 +13,22 @@
     color: #E0E0E0 !important;
 }
 
-/* Cor de Fundo dos Cards */
-.dark-mode .continue-learning-card {
-    background-color: #1E1E1E !important;
-}
-
-/* Seção Meus Cursos */
-/* Cor do Título da Seção */
+/* Seção Meus Cursos - Cor do Título da Seção */
 .dark-mode .my-courses__header-title {
     color: #E0E0E0 !important;
 }
 
-/* Cor do Nome dos Cursos */
+/* Seção Meus Cursos - Cor do Nome dos Cursos */
 .dark-mode .course-card__title {
     color: #E0E0E0 !important;
 }
 
-/* Cor do Texto de % Completada do Curso */
+/* Seção Meus Cursos - Cor do Texto de % Completada do Curso */
 .dark-mode .course-card__progress-info {
     color: #E0E0E0 !important;
 }
 
-/* Cor dos Cards dos Cursos */
-.dark-mode .course-card,
-.dark-mode .my-courses__list .course-card {
-    background-color: #1E1E1E !important;
-}
-
-/* Seção Cursos que Podem te Interessar */
-/* Cor dos Textos da Seção */
+/* Seção Cursos que Podem te Interessar - Cor dos Textos */
 .dark-mode .discount-dialog-price__base,
 .dark-mode .discount-dialog-price__installment-price-left,
 .dark-mode .discount-dialog-teachers__teacher-description,
@@ -55,25 +42,38 @@
 .dark-mode .discount-list__header-title,
 .dark-mode .discount-card__body-title,
 .dark-mode .discount-card__body-subtitle,
-.dark-mode .discount-card-price__new-value-number {
+.dark-mode .discount-card-price__new-value-number,
+.dark-mode .auth-code-validation__subtitle,
+.dark-mode .auth-code-validation__title,
+.dark-mode .confirm-phone-number-modal--form,
+.dark-mode .confirm-phone-number-modal--title,
+.dark-mode .referal-banner__description,
+.dark-mode .referal-banner__title {
     color: #E0E0E0 !important;
 }
 
-/* Cor das Setas */
-.dark-mode .btn_round {
-    background-color: #E0E0E0 !important;
+/* Seção Continue Aprendendo - Cor de Fundo dos Cards */
+.dark-mode .continue-learning-card {
+    background-color: #1E1E1E !important;
 }
 
-/* Cor dos Cards dos Cursos */
+/* Seção Meus Cursos - Cor dos Cards */
+.dark-mode .course-card,
+.dark-mode .my-courses__list .course-card {
+    background-color: #1E1E1E !important;
+}
+
+/* Seção Cursos que Podem te Interessar - Cor dos Cards */
 .dark-mode .discount-list__card {
     background-color: #1E1E1E !important;
 }
 
-/* Cor dos Cards Após Clicar em uma Promoção */
+/* Seção Cursos que Podem te Interessar - Cor dos Cards Após Clicar em uma Promoção */
 .dark-mode .discount-dialog__hero {
-    background: linear-gradient(96.32deg, #E0E0E0,#E0E0E0 .01%,#312d2d) !important;
+    background: linear-gradient(96.32deg, #E0E0E0, #E0E0E0 .01%, #312d2d) !important;
 }
 
+/* Seção Cursos que Podem te Interessar - Background interno de blocos */
 .dark-mode .discount-dialog-price,
 .dark-mode .discount-dialog__price--sticky-bottom,
 .dark-mode .discount-dialog-skills__block,
@@ -81,19 +81,18 @@
     background-color: #121212 !important;
 }
 
-/* Cor do Risco do Preço Antigo */
-.dark-mode .discount-card-price__old div:after {
-    background-color: #E0E0E0 !important;
-}
-
-/* Seção Indique e Ganhe */
-/* Cor de Fundo do Card */
+/* Seção Indique e Ganhe - Cor de Fundo do Card */
+.dark-mode .auth-code-validation,
 .dark-mode .referal-container {
     background-color: #1E1E1E !important;
 }
 
-/* Cor do Texto */
-.dark-mode .referal-banner__description,
-.dark-mode .referal-banner__title {
-    color: #E0E0E0 !important;
+/* Cor das Setas */
+.dark-mode .btn_round {
+    background-color: #E0E0E0 !important;
+}
+
+/* Cor do Risco do Preço Antigo */
+.dark-mode .discount-card-price__old div:after {
+    background-color: #E0E0E0 !important;
 }
