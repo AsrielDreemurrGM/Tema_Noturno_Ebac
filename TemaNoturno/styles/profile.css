@@ -1,4 +1,7 @@
 /* Cor dos Textos */
+.dark-mode .validate-cert__share p,
+.dark-mode .profile-security-row__label,
+.dark-mode .profile-security__title,
 .dark-mode .body-s,
 .dark-mode .h5,
 .dark-mode .card__notic p,
@@ -18,6 +21,7 @@
 }
 
 /* Cor dos Cards */
+.dark-mode .profile-security__block,
 .dark-mode .enrollments__cert,
 .dark-mode .password,
 .dark-mode .profile-form,
@@ -33,4 +37,10 @@
 /* Cor de Fundo da Pré-Visualização do Certificado */
 .dark-mode .cert__user-info {
     background-color: #E0E0E0 !important;
+}
+
+/* Cor dos Ícones de Compartilhamento do Certificado */
+.dark-mode .validate-cert__share span svg > g path,
+.dark-mode .validate-cert__share span svg > path {
+    fill: #E0E0E0 !important;
 }
