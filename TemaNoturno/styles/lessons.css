@@ -42,7 +42,7 @@
 }
 
 /* Sombreamento Por Cima Dos Vídeos - Dinamicamente Alterado Pelo Botão Na Extensão */
-.dark-mode.video-shadow-enabled .playkit-player {
+.dark-mode.video-shadow-enabled .video-player {
     opacity: 0.5 !important;
 }
 
