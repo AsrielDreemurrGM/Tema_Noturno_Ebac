@@ -1,4 +1,8 @@
 /* Cor dos Títulos */
+.dark-mode .webinar__h,
+.dark-mode .startcontinue-block_wrap__desc-text,
+.dark-mode .startcontinue-block_wrap__attempts,
+.dark-mode .question-rate-tip-text,
 .dark-mode .webinars-recorded__filter-popup--back,
 .dark-mode .webinars-recorded__filters-popup-title,
 .dark-mode .webinars-recorded__header,
