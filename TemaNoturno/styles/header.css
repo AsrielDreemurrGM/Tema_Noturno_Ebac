@@ -37,9 +37,15 @@
 
 /* Cor de Fundo das Notificações */
 .dark-mode .notification-card,
-.dark-mode .notifications-sidebar__item-empty, 
+.dark-mode .notifications-sidebar__item-empty,
 .dark-mode .notifications-sidebar__item-pending-next {
     background-color: #E0E0E0 !important;
+}
+/* Cor do Texto das Notificações */
+.dark-mode .notifications-sidebar__item-viewed-line-text,
+.dark-mode .notification-card__header-date,
+.dark-mode .notification-card {
+    color: #1E1E1E !important;
 }
 
 /* Menu do Usuário */
